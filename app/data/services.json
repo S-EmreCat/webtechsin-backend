@@ -202,8 +202,44 @@
         ]
       }
     },
-    
-    
+    {
+      "id": "araba-video-cekim-editleme",
+      "title": "Araba Video Çekim ve Editleme",
+      "description": "Otomotiv sektörü için profesyonel video editleme ve tanıtım hizmetleri",
+      "category": "Video",
+      "iconAsset": "assets/images/services/araba.png",
+      "highlights": [
+        "Video Edit (2-3 dk)",
+        "Renk Düzeltme",
+        "Sinematik Efektler",
+        "Müzik ve Ses Mastering",
+        "2 Revizyon Hakkı"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 6000
+      }
+    },
+    {
+      "id": "reklam-video-kurgusu",
+      "title": "Reklam Video Kurgusu",
+      "description": "Dijital pazarlama kampanyaları için platforma özel, dönüşüm odaklı reklam video kurguları",
+      "category": "Video",
+      "iconAsset": "assets/images/services/reklam-video.png",
+      "highlights": [
+        "Video Kurgu (15-60 sn)",
+        "Platform Optimizasyonu",
+        "CTA (Call to Action) Tasarımı",
+        "Sinematik Efektler",
+        "Sesli Anlatım / Müzik"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 5500
+      }
+    },
     {
       "id": "logo-animasyonu",
       "title": "Logo Animasyonu",
