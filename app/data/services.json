@@ -14,61 +14,7 @@
     }
   },
   "services": [
-    {
-      "id": "sosyal-medya-hizmetleri",
-      "title": "Sosyal Medya Hizmetleri",
-      "description": "Kapsamlı sosyal medya yönetimi ve dijital pazarlama hizmetleri",
-      "category": "Dijital Pazarlama",
-      "iconAsset": "assets/images/services/tiktok.png",
-      "pricing": {
-        "type": "byPackage",
-        "period": "ay",
-        "packages": [
-          {
-            "id": "1",
-            "label": "1",
-            "price": 6000,
-            "title": "BAŞLANGIÇ SOSYAL MEDYA PAKETİ",
-            "items": [
-              "4 Reels / TikTok",
-              "4 Post Tasarımı",
-              "8 Story Tasarımı",
-              "30 Günlük İçerik Planı",
-              "1 Tur Revizyon"
-            ],
-            "badge": "Küçük işletmeler için"
-          },
-          {
-            "id": "2",
-            "label": "2",
-            "price": 8000,
-            "title": "PROFESYONEL SOSYAL MEDYA PAKETİ",
-            "items": [
-              "6 Reels / TikTok",
-              "6 Post Tasarımı",
-              "12 Story Tasarımı",
-              "30 Günlük İçerik Planı",
-              "2 Tur Revizyon"
-            ],
-            "badge": "EN POPÜLER"
-          },
-          {
-            "id": "3",
-            "label": "3",
-            "price": 12000,
-            "title": "PREMIUM SOSYAL MEDYA PAKETİ",
-            "items": [
-              "10 Reels / TikTok",
-              "10 Post Tasarımı",
-              "14 Story",
-              "Özel Kampanya Destek",
-              "3 Tur Revizyon"
-            ],
-            "badge": "Kurumsal büyüme için"
-          }
-        ]
-      }
-    },
+    
     {
       "id": "kurumsal-web-sitesi-kurulumu",
       "title": "Kurumsal Web Sitesi Kurulumu",
@@ -179,29 +125,7 @@
         ]
       }
     },
-    {
-      "id": "youtube-video-edit",
-      "title": "YouTube Video Edit",
-      "description": "Profesyonel YouTube içerik düzenleme ve optimizasyon hizmetleri",
-      "category": "Video",
-      "iconAsset": "assets/images/services/youtube.png",
-      "highlights": [
-        "Profesyonel Video Kurgu",
-        "Renk Düzeltme",
-        "Thumbnail Tasarımı",
-        "SEO Başlık ve Açıklama",
-        "Giriş/Çıkış Animasyonu",
-        "Alt Yazı Ekleme"
-      ],
-      "pricing": {
-        "type": "byDuration",
-        "period": null,
-        "durations": [
-          { "label": "5 dk", "price": 2000 },
-          { "label": "10 dk", "price": 4000 }
-        ]
-      }
-    },
+    
     {
       "id": "araba-video-cekim-editleme",
       "title": "Araba Video Çekim ve Editleme",
@@ -240,24 +164,7 @@
         "startingPrice": 5500
       }
     },
-    {
-      "id": "logo-animasyonu",
-      "title": "Logo Animasyonu",
-      "description": "Hareketli logo tasarımları",
-      "category": "Video",
-      "iconAsset": "assets/images/services/logo-animasyon.png",
-      "highlights": [
-        "2D / 3D Logo Animasyonu",
-        "Markaya Özel Hareket Tasarımı",
-        "Web & Sosyal Medya Uyumlu Formatlar",
-        "Revizyon"
-      ],
-      "pricing": {
-        "type": "startingFrom",
-        "period": null,
-        "startingPrice": 2500
-      }
-    },
+    
     {
       "id": "web-sitesi-yonetim-icerik-hizmetleri",
       "title": "Web Sitesi Yönetim ve İçerik Hizmetleri",
