@@ -1,6 +1,11 @@
 {
   "meta": {
     "currency": "TRY",
+    "featuredServiceIds": [
+      "kurumsal-web-sitesi-kurulumu",
+      "eticaret-sitesi-kurulumu",
+      "sosyal-medya-hizmetleri"
+    ],
     "defaults": {
       "taxIncluded": true,
       "pricingNote": "Başlayan fiyatlarla",
