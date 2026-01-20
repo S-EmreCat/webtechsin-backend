@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "currency": "TRY",
+    "defaults": {
+      "taxIncluded": true,
+      "pricingNote": "Başlayan fiyatlarla",
+      "ctaText": "Teklif Al",
+      "ctaAction": "contact"
+    }
+  },
+  "services": [
+    {
+      "id": "sosyal-medya-hizmetleri",
+      "title": "Sosyal Medya Hizmetleri",
+      "description": "Kapsamlı sosyal medya yönetimi ve dijital pazarlama hizmetleri",
+      "category": "Dijital Pazarlama",
+      "iconAsset": "assets/images/services/tiktok.png",
+      "pricing": {
+        "type": "byPackage",
+        "period": "ay",
+        "packages": [
+          {
+            "id": "1",
+            "label": "1",
+            "price": 6000,
+            "title": "BAŞLANGIÇ SOSYAL MEDYA PAKETİ",
+            "items": [
+              "4 Reels / TikTok",
+              "4 Post Tasarımı",
+              "8 Story Tasarımı",
+              "30 Günlük İçerik Planı",
+              "1 Tur Revizyon"
+            ],
+            "badge": "Küçük işletmeler için"
+          },
+          {
+            "id": "2",
+            "label": "2",
+            "price": 8000,
+            "title": "PROFESYONEL SOSYAL MEDYA PAKETİ",
+            "items": [
+              "6 Reels / TikTok",
+              "6 Post Tasarımı",
+              "12 Story Tasarımı",
+              "30 Günlük İçerik Planı",
+              "2 Tur Revizyon"
+            ],
+            "badge": "EN POPÜLER"
+          },
+          {
+            "id": "3",
+            "label": "3",
+            "price": 12000,
+            "title": "PREMIUM SOSYAL MEDYA PAKETİ",
+            "items": [
+              "10 Reels / TikTok",
+              "10 Post Tasarımı",
+              "14 Story",
+              "Özel Kampanya Destek",
+              "3 Tur Revizyon"
+            ],
+            "badge": "Kurumsal büyüme için"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kurumsal-web-sitesi-kurulumu",
+      "title": "Kurumsal Web Sitesi Kurulumu",
+      "description": "Profesyonel, ölçeklenebilir ve güvenli kurumsal web siteleri hizmeti",
+      "category": "Web",
+      "iconAsset": "assets/images/services/kurumsal-web.png",
+      "pricing": {
+        "type": "byPackage",
+        "period": null,
+        "packages": [
+          {
+            "id": "1",
+            "label": "1",
+            "price": 22000,
+            "title": "TEMEL WEB PAKETİ",
+            "items": [
+              "5 Sayfa Tasarımı",
+              "Responsive Tasarım",
+              "SEO Uyumlu Yapı",
+              "İletişim Formu",
+              "1 Ay Teknik Destek"
+            ],
+            "badge": "Küçük işletmeler için idealdir"
+          },
+          {
+            "id": "2",
+            "label": "2",
+            "price": 35000,
+            "title": "PROFESYONEL PAKET",
+            "items": [
+              "10 Sayfa + Alt Sayfalar",
+              "Özel Tasarım",
+              "Admin Panel",
+              "Blog Modülü",
+              "3 Ay Teknik Destek"
+            ],
+            "badge": "Kurumsal firmalar için önerilir"
+          },
+          {
+            "id": "3",
+            "label": "3",
+            "price": 55000,
+            "title": "PREMIUM PAKET",
+            "items": [
+              "Sınırsız Sayfa",
+              "Çoklu Dil Desteği",
+              "Üyelik Sistemi",
+              "API Entegrasyonları",
+              "6 Ay Öncelikli Destek"
+            ],
+            "badge": "Büyük ölçekli projeler için"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eticaret-sitesi-kurulumu",
+      "title": "E-Ticaret Sitesi Kurulumu",
+      "description": "Online satışa yönelik hazır altyapılar kullanılarak e-ticaret sitesi kurulum hizmeti",
+      "category": "Web",
+      "iconAsset": "assets/images/services/e-ticaret-logo.png",
+      "pricing": {
+        "type": "byPackage",
+        "period": null,
+        "packages": [
+          {
+            "id": "1",
+            "label": "1",
+            "price": 30000,
+            "title": "TEMEL PAKET",
+            "items": [
+              "100 Ürüne Kadar",
+              "Ödeme Entegrasyonu",
+              "Kargo Entegrasyonu",
+              "Mobil Uyumlu Tasarım",
+              "Stok Yönetimi"
+            ],
+            "badge": "Yeni başlayanlar için idealdir"
+          },
+          {
+            "id": "2",
+            "label": "2",
+            "price": 50000,
+            "title": "PROFESYONEL PAKET",
+            "items": [
+              "500 Ürüne Kadar",
+              "Çoklu Ödeme Sistemi",
+              "Gelişmiş Kargo",
+              "Kampanya Yönetimi",
+              "SMS/E-posta Bildirimi"
+            ],
+            "badge": "Büyüyen işletmeler için önerilir"
+          },
+          {
+            "id": "3",
+            "label": "3",
+            "price": 80000,
+            "title": "KURUMSAL PAKET",
+            "items": [
+              "Sınırsız Ürün",
+              "B2B/B2C Modülü",
+              "API Entegrasyonları",
+              "Çoklu Dil/Para Birimi",
+              "Gelişmiş Raporlama"
+            ],
+            "badge": "Büyük ölçekli operasyonlar için"
+          }
+        ]
+      }
+    },
+    {
+      "id": "youtube-video-edit",
+      "title": "YouTube Video Edit",
+      "description": "Profesyonel YouTube içerik düzenleme ve optimizasyon hizmetleri",
+      "category": "Video",
+      "iconAsset": "assets/images/services/youtube.png",
+      "highlights": [
+        "Profesyonel Video Kurgu",
+        "Renk Düzeltme",
+        "Thumbnail Tasarımı",
+        "SEO Başlık ve Açıklama",
+        "Giriş/Çıkış Animasyonu",
+        "Alt Yazı Ekleme"
+      ],
+      "pricing": {
+        "type": "byDuration",
+        "period": null,
+        "durations": [
+          { "label": "5 dk", "price": 2000 },
+          { "label": "10 dk", "price": 4000 }
+        ]
+      }
+    },
+    {
+      "id": "araba-video-cekim-editleme",
+      "title": "Araba Video Çekim ve Editleme",
+      "description": "Otomotiv sektörü için profesyonel video editleme ve tanıtım hizmetleri",
+      "category": "Video",
+      "iconAsset": "assets/images/services/araba.png",
+      "highlights": [
+        "Video Edit (2-3 dk)",
+        "Renk Düzeltme",
+        "Sinematik Efektler",
+        "Müzik ve Ses Mastering",
+        "2 Revizyon Hakkı"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 6000
+      }
+    },
+    {
+      "id": "reklam-video-kurgusu",
+      "title": "Reklam Video Kurgusu",
+      "description": "Dijital pazarlama kampanyaları için platforma özel, dönüşüm odaklı reklam video kurguları",
+      "category": "Video",
+      "iconAsset": "assets/images/services/reklam-video.png",
+      "highlights": [
+        "Video Kurgu (15-60 sn)",
+        "Platform Optimizasyonu",
+        "CTA (Call to Action) Tasarımı",
+        "Sinematik Efektler",
+        "Sesli Anlatım / Müzik"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 5500
+      }
+    },
+    {
+      "id": "logo-animasyonu",
+      "title": "Logo Animasyonu",
+      "description": "Hareketli logo tasarımları",
+      "category": "Video",
+      "iconAsset": "assets/images/services/logo-animasyon.png",
+      "highlights": [
+        "2D / 3D Logo Animasyonu",
+        "Markaya Özel Hareket Tasarımı",
+        "Web & Sosyal Medya Uyumlu Formatlar",
+        "Revizyon"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 2500
+      }
+    },
+    {
+      "id": "web-sitesi-yonetim-icerik-hizmetleri",
+      "title": "Web Sitesi Yönetim ve İçerik Hizmetleri",
+      "description": "Web sitelerinin içerik yönetimi ve genel kullanımına yönelik destek hizmetleri",
+      "category": "Web",
+      "iconAsset": "assets/images/services/web-sitesi-yonetim-icerik.png",
+      "highlights": [
+        "Yönetim Paneli",
+        "Kullanıcı Yetkilendirme",
+        "Temel Raporlama",
+        "Güvenlik ve Güncelleme Desteği"
+      ],
+      "badges": ["Opsiyonel bakım paketi (3/6/12 ay)"],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 12000
+      }
+    },
+    {
+      "id": "web-tabanli-kurumsal-web-cozumleri",
+      "title": "Web Tabanlı Kurumsal Web Çözümleri",
+      "description": "İşletmelere yönelik, hazır altyapılar üzerinden sunulan web tabanlı dijital çözümler",
+      "category": "Web",
+      "iconAsset": "assets/images/services/web-kurumsal-cozum.png",
+      "highlights": [
+        "Kuruma Özel Tasarım",
+        "Yönetilebilir ve Geliştirilebilir Altyapı",
+        "Harici Sistem Bağlantıları",
+        "Kullanım ve Yönetim Rehberi"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 45000
+      }
+    },
+    {
+      "id": "domain-hosting-yonetimi",
+      "title": "Domain & Hosting Yönetimi",
+      "description": "Domain, hosting ve DNS yönetimi hizmetleri",
+      "category": "Web",
+      "iconAsset": "assets/images/services/domain-hosting.png",
+      "highlights": [
+        "Domain Tescil",
+        "SSL Sertifikası",
+        "Yedekleme",
+        "7/24 İzleme"
+      ],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 1200
+      }
+    },
+    {
+      "id": "seo-uyumlu-web-tasarim",
+      "title": "SEO Uyumlu Web Tasarım",
+      "description": "Arama motorlarında üst sıralarda yer alın",
+      "category": "Web",
+      "iconAsset": "assets/images/services/seo.png",
+      "highlights": [
+        "Anahtar Kelime Analizi",
+        "Teknik SEO",
+        "İçerik Optimizasyonu",
+        "Hız Optimizasyonu"
+      ],
+      "badges": ["Opsiyonel bakım paketi (3/6/12 ay)"],
+      "pricing": {
+        "type": "startingFrom",
+        "period": null,
+        "startingPrice": 8000
+      }
+    }
+  ]
+}
