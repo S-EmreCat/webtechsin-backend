@@ -8,13 +8,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .config import settings
 from .schemas import ContactIn
-from .mailer import send_contact_email, ResendError
+from .mailer import ResendError, send_contact_email
 
 app = FastAPI(title="Webtechsin API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # prod'da daraltırsın
+    allow_origins=settings.cors_list(),
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -29,13 +29,12 @@ def root():
 
 
 @app.get("/services")
-async def get_services():
-    if not SERVICES_FILE.exists():
-        raise HTTPException(status_code=500, detail="services.json not found")
-
+def get_services():
     try:
         raw = SERVICES_FILE.read_text(encoding="utf-8")
         return json.loads(raw)
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="services.json not found")
     except json.JSONDecodeError as e:
         raise HTTPException(status_code=500, detail=f"Invalid JSON: {e}")
     except Exception as e:
@@ -47,6 +46,7 @@ async def contact(payload: ContactIn, x_api_key: str | None = Header(default=Non
     if x_api_key != settings.contact_api_key:
         raise HTTPException(status_code=401, detail="Unauthorized")
 
+    # bot/abuse yakalama (UI'da görünmez alan)
     if payload.honeypot.strip():
         raise HTTPException(status_code=400, detail="Invalid submission")
 
@@ -57,6 +57,7 @@ async def contact(payload: ContactIn, x_api_key: str | None = Header(default=Non
             message=payload.message,
         )
     except ResendError as e:
+        # upstream mail provider hatası
         raise HTTPException(status_code=502, detail=str(e))
 
     return {"ok": True}
