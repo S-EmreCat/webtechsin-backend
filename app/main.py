@@ -23,6 +23,10 @@ DATA_DIR = Path(__file__).resolve().parent / "data"
 SERVICES_FILE = DATA_DIR / "services.json"
 
 
+@app.get("/")
+def root():
+    return {"status": "ok"}
+
 
 @app.get("/services")
 async def get_services():
